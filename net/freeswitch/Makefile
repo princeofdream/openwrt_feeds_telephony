@@ -1048,7 +1048,7 @@ $(eval $(call Package/freeswitch/Module,say_sv,Swedish Say,Uses prerecorded soun
 $(eval $(call Package/freeswitch/Module,say_th,Thai Say,Uses prerecorded sounds to read or say various things.,))
 $(eval $(call Package/freeswitch/Module,say_zh,Chinese Say,Uses prerecorded sounds to read or say various things.,))
 $(eval $(call Package/freeswitch/Module,shell_stream,Shell stream,Allows to stream audio from an arbitrary shell command.,))
-$(eval $(call Package/freeswitch/Module,shout,Shout,Allows to stream audio from MP3s or Shoutcast streams.,+lame-lib +libmpg123 +libshout))
+$(eval $(call Package/freeswitch/Module,shout,Shout,Allows to stream audio from MP3s or Shoutcast streams.,+lame-lib +libmpg123 +libshout-full))
 $(eval $(call Package/freeswitch/Module,signalwire,SignalWire,SignalWire CLOUD - FreeSWITCH connector.,+signalwire-client-c))
 $(eval $(call Package/freeswitch/Module,skinny,Skinny,Skinny Call Control Protocol endpoint support.,))
 $(eval $(call Package/freeswitch/Module,sms,SMS,This module provides an abstract facility for interfacing with SMS\nsystems.,))
